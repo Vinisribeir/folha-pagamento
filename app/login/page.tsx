@@ -13,7 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 
 const Login = () => {
   return (
-    <main className="justify-end">
+    <main className="flex-col items-center justify-center">
       <Card className="w-[480px]">
         <CardHeader>
           <CardTitle>Login</CardTitle>
