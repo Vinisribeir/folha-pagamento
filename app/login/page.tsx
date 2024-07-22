@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { SignIn } from "@/components/SignIn";
 
 const Login = () => {
   return (
@@ -37,6 +38,7 @@ const Login = () => {
           </div>
         </CardContent>
         <CardFooter className="flex justify-between">
+          <SignIn />
           <span>
             <a href="/" className="underline">
               Esqueceu sua senha?
